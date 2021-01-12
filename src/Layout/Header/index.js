@@ -14,7 +14,7 @@ export default function Header({ children, showMobileMenu }) {
         </div>
         <div className="header-titles">
           <h2>Anup Macwan</h2>
-          <h4>Front End Engineer</h4>
+          <h4>Full Stack Developer</h4>
         </div>
       </div>
       {children}

@@ -130,9 +130,9 @@ export default function index({ showMobileMenu }) {
               {/* <!-- Skill 2 --> */}
               <div className="skill clearfix">
                 <h4>CSS 3</h4>
-                <div className="skill-value">65%</div>
+                <div className="skill-value">95%</div>
               </div>
-              <div className="skill-container skill-2">
+              <div className="skill-container skill-1">
                 <div className="skill-percentage"></div>
               </div>
               {/* <!-- End of Skill 2 --> */}
@@ -140,9 +140,9 @@ export default function index({ showMobileMenu }) {
               {/* <!-- Skill 3 --> */}
               <div className="skill clearfix">
                 <h4>JavaScript</h4>
-                <div className="skill-value">80%</div>
+                <div className="skill-value">95%</div>
               </div>
-              <div className="skill-container skill-3">
+              <div className="skill-container skill-1">
                 <div className="skill-percentage"></div>
               </div>
               {/* <!-- End of Skill 3 --> */}
@@ -150,9 +150,9 @@ export default function index({ showMobileMenu }) {
               {/* <!-- Skill 4 --> */}
               <div className="skill clearfix">
                 <h4>React.js</h4>
-                <div className="skill-value">90%</div>
+                <div className="skill-value">95%</div>
               </div>
-              <div className="skill-container skill-4">
+              <div className="skill-container skill-1">
                 <div className="skill-percentage"></div>
               </div>
               {/* <!-- End of Skill 4 --> */}
@@ -160,9 +160,9 @@ export default function index({ showMobileMenu }) {
               {/* <!-- Skill 5 --> */}
               <div className="skill clearfix">
                 <h4>Redux</h4>
-                <div className="skill-value">90%</div>
+                <div className="skill-value">95%</div>
               </div>
-              <div className="skill-container skill-4">
+              <div className="skill-container skill-1">
                 <div className="skill-percentage"></div>
               </div>
               {/* <!-- End of Skill 5 --> */}
@@ -170,9 +170,9 @@ export default function index({ showMobileMenu }) {
               {/* <!-- Skill 6 --> */}
               <div className="skill clearfix">
                 <h4>Angular 10</h4>
-                <div className="skill-value">90%</div>
+                <div className="skill-value">65%</div>
               </div>
-              <div className="skill-container skill-4">
+              <div className="skill-container skill-2">
                 <div className="skill-percentage"></div>
               </div>
               {/* <!-- End of Skill 6 --> */}
@@ -192,9 +192,9 @@ export default function index({ showMobileMenu }) {
               {/* <!-- Skill 7 --> */}
               <div className="skill clearfix">
                 <h4>NodeJS</h4>
-                <div className="skill-value">90%</div>
+                <div className="skill-value">95%</div>
               </div>
-              <div className="skill-container skill-4">
+              <div className="skill-container skill-1">
                 <div className="skill-percentage"></div>
               </div>
               {/* <!-- End of Skill 7 --> */}
@@ -229,9 +229,9 @@ export default function index({ showMobileMenu }) {
               {/* <!-- Skill 15--> */}
               <div className="skill clearfix">
                 <h4>Socket IO</h4>
-                <div className="skill-value">90%</div>
+                <div className="skill-value">95%</div>
               </div>
-              <div className="skill-container skill-4">
+              <div className="skill-container skill-1">
                 <div className="skill-percentage"></div>
               </div>
               {/* <!-- End of Skill 15 --> */}
@@ -249,9 +249,9 @@ export default function index({ showMobileMenu }) {
               {/* <!-- Skill 8 --> */}
               <div className="skill clearfix">
                 <h4>React Native</h4>
-                <div className="skill-value">90%</div>
+                <div className="skill-value">75%</div>
               </div>
-              <div className="skill-container skill-4">
+              <div className="skill-container skill-8">
                 <div className="skill-percentage"></div>
               </div>
               {/* <!-- End of Skill 8 --> */}

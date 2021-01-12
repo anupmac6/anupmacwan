@@ -75,7 +75,7 @@ export default function index({ showMobileMenu }) {
               <div className="info-list-w-icon">
                 <div className="info-block-w-icon">
                   <div className="ci-icon">
-                    <i className="lnr lnr-store"></i>
+                    <i className="lnr lnr-laptop-phone"></i>
                   </div>
                   <div className="ci-text">
                     <h4>Web Development</h4>
@@ -88,7 +88,7 @@ export default function index({ showMobileMenu }) {
                 </div>
                 <div className="info-block-w-icon">
                   <div className="ci-icon">
-                    <i className="lnr lnr-pencil"></i>
+                    <i className="lnr lnr-code"></i>
                   </div>
                   <div className="ci-text">
                     <h4>Node JS</h4>
@@ -101,7 +101,7 @@ export default function index({ showMobileMenu }) {
                 </div>
                 <div className="info-block-w-icon">
                   <div className="ci-icon">
-                    <i className="lnr lnr-flag"></i>
+                    <i className="lnr lnr-cloud"></i>
                   </div>
                   <div className="ci-text">
                     <h4>Firebase</h4>
@@ -121,7 +121,7 @@ export default function index({ showMobileMenu }) {
               <div className="info-list-w-icon">
                 <div className="info-block-w-icon">
                   <div className="ci-icon">
-                    <i className="lnr lnr-laptop-phone"></i>
+                    <i className="lnr lnr-smartphone"></i>
                   </div>
                   <div className="ci-text">
                     <h4>Mobile App Development</h4>
@@ -134,7 +134,7 @@ export default function index({ showMobileMenu }) {
                 </div>
                 <div className="info-block-w-icon">
                   <div className="ci-icon">
-                    <i className="lnr lnr-flag"></i>
+                    <i className="lnr lnr-database"></i>
                   </div>
                   <div className="ci-text">
                     <h4>Database</h4>
@@ -148,10 +148,10 @@ export default function index({ showMobileMenu }) {
 
                 <div className="info-block-w-icon">
                   <div className="ci-icon">
-                    <i className="lnr lnr-flag"></i>
+                    <i className="lnr lnr-layers"></i>
                   </div>
                   <div className="ci-text">
-                    <h4>Elastic</h4>
+                    <h4>ElasticSearch</h4>
                     <p>
                       Pellentesque pellentesque, ipsum sit amet auctor accumsan,
                       odio tortor bibendum massa, sit amet ultricies ex lectus
@@ -178,7 +178,7 @@ export default function index({ showMobileMenu }) {
         <div className="row">
           <div className="col-xs-12 col-sm-4">
             <div className="fun-fact gray-default">
-              <i className="lnr lnr-heart"></i>
+              <i className="lnr lnr-dice"></i>
               <h4>Gaming</h4>
               <span className="fun-fact-block-value">X-box</span>
               <span className="fun-fact-block-text"></span>
@@ -187,7 +187,7 @@ export default function index({ showMobileMenu }) {
 
           <div className="col-xs-12 col-sm-4">
             <div className="fun-fact gray-default">
-              <i className="lnr lnr-clock"></i>
+              <i className="lnr lnr-picture"></i>
               <h4>Photography</h4>
               <span className="fun-fact-block-value">Canon</span>
               <span className="fun-fact-block-text"></span>
@@ -196,7 +196,7 @@ export default function index({ showMobileMenu }) {
 
           <div className="col-xs-12 col-sm-4 ">
             <div className="fun-fact gray-default">
-              <i className="lnr lnr-star"></i>
+              <i className="lnr lnr-magic-wand"></i>
               <h4>Raspberry Pi</h4>
               <span className="fun-fact-block-value">Pi 4</span>
               <span className="fun-fact-block-text"></span>
@@ -204,16 +204,16 @@ export default function index({ showMobileMenu }) {
           </div>
           <div className="col-xs-12 col-sm-6">
             <div className="fun-fact gray-default">
-              <i className="lnr lnr-heart"></i>
+              <i className="lnr lnr-car"></i>
               <h4>Travelling</h4>
-              <span className="fun-fact-block-value">Ocean</span>
+              <span className="fun-fact-block-value">Mountains</span>
               <span className="fun-fact-block-text"></span>
             </div>
           </div>
 
           <div className="col-xs-12 col-sm-6 ">
             <div className="fun-fact gray-default">
-              <i className="lnr lnr-star"></i>
+              <i className="lnr lnr-dinner"></i>
               <h4>Foodie</h4>
               <span className="fun-fact-block-value">Meat</span>
               <span className="fun-fact-block-text"></span>

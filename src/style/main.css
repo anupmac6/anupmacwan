@@ -777,6 +777,7 @@ textarea.form-control:focus {
   margin: -2px 0 0 10px;
   color: #fff;
   background: #ff4e4e;
+  right: 0;
 }
 
 .form-group .help-block:after {
@@ -1039,6 +1040,12 @@ input[type="text"],
 .lm-info-block h4 {
   font-size: 15px;
   margin-top: 8px;
+}
+.lm-info-block h4 a,
+.lm-info-block h4 a:link,
+.lm-info-block h4 a:visited,
+.lm-info-block h4 a:focus {
+  color: #222;
 }
 
 .lm-info-block .lm-info-block-value {

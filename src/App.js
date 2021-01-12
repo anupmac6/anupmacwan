@@ -1,13 +1,9 @@
-// CSS
 import "./style/reset.css";
 import "./style/bootstrap-grid.min.css";
-import "./style/animations.css";
 import "react-perfect-scrollbar/dist/css/styles.css";
-import "./style/owl.carousel.css";
-import "./style/magnific-popup.css";
 import "./style/main.css";
 
-import { Route, Switch, withRouter } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 
 import About from "./Routes/About";
 import Contact from "./Routes/Contact";

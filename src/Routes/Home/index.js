@@ -1,6 +1,7 @@
 import React from "react";
 import Scrollbar from "../../common/Scrollbar";
-import Zoom from "react-reveal/Zoom";
+import TextLoop from "react-text-loop";
+
 export default function index({ showMobileMenu }) {
   return (
     <Scrollbar
@@ -13,21 +14,23 @@ export default function index({ showMobileMenu }) {
             <div className="title-block">
               <h2>Anup Macwan</h2>
               <div className="owl-carousel text-rotation">
-                <div className="item">
-                  <div className="sp-subtitle">Front End Engineer</div>
-                </div>
-
-                <div className="item">
-                  <div className="sp-subtitle">Full Stack Developer</div>
-                </div>
-                <div className="item">
-                  <div className="sp-subtitle">Node JS Developer</div>
-                </div>
-                <div className="item">
-                  <div className="sp-subtitle">
-                    Mobile Application Developer (React Native)
+                <TextLoop interval={3800}>
+                  <div className="item">
+                    <div className="sp-subtitle">Front End Engineer</div>
                   </div>
-                </div>
+
+                  <div className="item">
+                    <div className="sp-subtitle">Full Stack Developer</div>
+                  </div>
+                  <div className="item">
+                    <div className="sp-subtitle">Node JS Developer</div>
+                  </div>
+                  <div className="item">
+                    <div className="sp-subtitle">
+                      Mobile Application Developer (React Native)
+                    </div>
+                  </div>
+                </TextLoop>
               </div>
             </div>
           </div>
