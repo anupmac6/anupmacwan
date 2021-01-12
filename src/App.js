@@ -1,24 +1,60 @@
-import logo from './logo.svg';
-import './App.css';
+// CSS
+import "./style/reset.css";
+import "./style/bootstrap-grid.min.css";
+import "./style/animations.css";
+import "react-perfect-scrollbar/dist/css/styles.css";
+import "./style/owl.carousel.css";
+import "./style/magnific-popup.css";
+import "./style/main.css";
+
+import { Route, Switch, withRouter } from "react-router-dom";
+
+import About from "./Routes/About";
+import Contact from "./Routes/Contact";
+import Home from "./Routes/Home";
+import Layout from "./Layout";
+import Resume from "./Routes/Resume";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Switch>
+      <Route
+        exact
+        path="/"
+        component={() => (
+          <Layout>
+            <Home />
+          </Layout>
+        )}
+      />
+      <Route
+        exact
+        path="/about-me"
+        component={() => (
+          <Layout>
+            <About />
+          </Layout>
+        )}
+      />
+      <Route
+        exact
+        path="/resume"
+        component={() => (
+          <Layout>
+            <Resume />
+          </Layout>
+        )}
+      />
+      <Route
+        exact
+        path="/contact-me"
+        component={() => (
+          <Layout>
+            <Contact />
+          </Layout>
+        )}
+      />
+    </Switch>
   );
 }
 
